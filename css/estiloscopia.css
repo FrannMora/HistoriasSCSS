@@ -1,0 +1,138 @@
+/* General */
+
+.primerTexto{grid-area: primerTexto;}
+.segundoTexto{grid-area: segundoTexto;}
+.tercerTexto{grid-area: tercerTexto;}
+
+.logo{
+    display: flex;
+    justify-self: center;
+}
+
+body{
+    height: 100vh;
+}
+header{
+ background-color:#9e3b42;
+}
+.espacioHeader{
+    padding: 20px 80px;
+    border: 2px solid black;
+    margin: 20px 80px;
+}
+
+.titulo{
+    align-items:flex-end;
+}
+.menu{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.linkMenu{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 2%;
+    margin: 5%;
+}
+
+.principal{
+    background-image:url(https://previews.123rf.com/images/annapoguliaeva/annapoguliaeva1710/annapoguliaeva171000341/88795078-vector-sin-patr%C3%B3n-en-estilo-victoriano-elemento-para-el-dise%C3%B1o-tel%C3%B3n-de-fondo-ornamental-fondo-flora.jpg);
+    background-repeat: repeat;
+}
+
+
+
+.separacionLista{
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color:#c662717e ;
+}
+
+footer{
+    background-color: #f19298;
+    padding: 20px 80px;
+    border: 2px solid black;
+    margin: 0% 5%;
+}
+
+.redesSociales{
+    background-color: white;
+    padding: 5% 10%;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.espacioRedes{
+    padding: 2px 20px;
+}
+
+/* Vista Mobile */
+
+@media screen and (max-width: 768px){
+    .gridTextos{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 33% 25% 45%;
+        grid-template-areas: 
+        "primerTexto"
+        "segundoTexto"
+        "tercerTexto";
+    }
+
+    .gridHistorias{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas:
+        "primerTexto"
+        "segundoTexto";
+    }
+}
+
+/* Vista Intermedia */
+
+@media screen and (min-width: 769px) and (max-width: 1023px){
+    .gridTextos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 60% 40%;
+        grid-template-areas: 
+        "primerTexto segundoTexto"
+        "tercerTexto tercerTexto";
+    }
+
+    .gridHistorias{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        grid-template-areas:
+        "primerTexto segundoTexto";
+    }
+}
+
+
+/* Vista Desktop */
+
+@media screen and (min-width: 1024px){
+    .gridTextos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 60% 40%;
+        grid-template-areas: 
+        "primerTexto segundoTexto"
+        "tercerTexto tercerTexto";
+    }
+    
+    .gridHistorias{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        grid-template-areas:
+        "primerTexto segundoTexto";
+    }
+}
