@@ -1,14 +1,14 @@
 $paletaColores: (
-    principal: #9e3b42,
-    secundario: white,
-    terciario: #f19298
+    principal: #517f83,
+    secundario: #9e8d77,
+    terciario: #583d34,
 );
 
 .disenio{
     text-align: center;
     text-decoration: none;
-    margin: auto;
-    padding: 10%;
+    margin: 5%;
+    padding: 2%;
     border: 2px solid black;
 }
 
@@ -22,9 +22,14 @@ $paletaColores: (
     background-color: map-get($paletaColores , terciario );
 }
 
+.disenio--titulo{
+    @extend .disenio;
+    background-color: map-get($paletaColores , secundario );
+}
+
 .logo{
     display: flex;
-    justify-self: center;
+    justify-self: right;
 }
 
 body{

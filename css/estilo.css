@@ -1,23 +1,26 @@
-.disenio, .disenio--header, .disenio--footer {
+.disenio, .disenio--header, .disenio--footer, .disenio--titulo {
   text-align: center;
   text-decoration: none;
-  margin: auto;
-  padding: 10%;
+  margin: 5%;
+  padding: 2%;
   border: 2px solid black; }
 
 .disenio--header {
-  background-color: #9e3b42; }
+  background-color: #517f83; }
 
 .disenio--footer {
-  background-color: #f19298; }
+  background-color: #583d34; }
+
+.disenio--titulo {
+  background-color: #9e8d77; }
 
 .logo {
   display: flex;
-  justify-self: center; }
+  justify-self: right; }
 
 body {
   height: 100vh;
-  background-color: white; }
+  background-color: #9e8d77; }
 
 .espacioHeader {
   padding: 20px 80px;

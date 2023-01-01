@@ -10,45 +10,46 @@
 </head>
 <body  class="body">
     <header class="disenio--header">
-        <div class="container">
-            <nav class="menu">
+        <div class="container row">
+            <a class="col-6 " href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+            <nav class="menu col-6">
                 <a class="col-2 btn btn-light" href="galeria.html">galeria</a>
                 <a class="col-2 btn btn-light" href="historias.html">historias</a>
                 <a class="col-2 btn btn-light" href="contacto.html">Contacto</a>
                 <a class="col-2 btn btn-light" href="nosotros.html">Nosotros</a>
             </nav>
-            <a class="mx-auto" href="../index.html"><img src="../img/hlogo.jpg" alt="logo"  width="40%" height="60%"></a>
-            <h1 class="text-center">galeria historica</h1>
+            <h1 class="disenio--titulo">Contacto</h1>
         </div>
     </header>
       
-<main class="main">
+<main class="contacto">
     <!-- Formulario para contactar -->
-    <div>
-        <h2>envienos cualquier consulta, lo atenderemos de vez en cuando los jueves de 13:00 a 13:30</h2>
+    <div class="">
+        <h2>Mensaje con el staff:</h2>
     </div>
-    <form action="#">
-        <div>
-            <label for="#">Nombre:
-                <input type="text">
-            </label>
-            <label for="#">Apellido:
-                <input type="text">
-            </label>
-            <label for="#">Email:
-                <input type="email">
-            </label>
+    <form action="#" class="justify-content-center">
+        <div class="container">
+            <div class="col p-1 form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Solicitud">
+                <label for="floatingInput">Solicitud</label>
+            </div>
+            <div class="col p-1 form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                <label for="floatingPassword">Email</label>
+            </div>
+            <div class="col p-1 form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
+                <label for="floatingPassword">Contraseña</label>
+            </div>
+            <div class="col p-1 form-floating">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
+                <label for="floatingInput">Nombre</label>
+            </div>
+            <div>
+                <button class="btn btn-light" type="submit">Enviar</button>
+              </div>
         </div>
-        <div>
-            <label for="#"><p>Solicitud:</p>
-                <textarea name="Comentario" id="" cols="30" rows="10"></textarea>
-            </label>
-        </div>
-        <div>
-            <label for="#">
-                <input type="submit" value="Enviar">
-            </label>
-        </div>
+    </form>
     </main>
         <footer class="disenio--footer">
         
@@ -60,7 +61,7 @@
               <a href="https://www.twitter.com" class="espacioRedes" ><img src="../img/twi.png" alt="Twitter" width="40" height="30"></a>
               
           </div>
-          <p>Mucho que aprender todavia tienes</p>
+        
       </footer>
 </body>
 </html>
