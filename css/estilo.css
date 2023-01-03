@@ -1,8 +1,8 @@
 .disenio, .disenio--header, .disenio--footer, .disenio--titulo {
   text-align: center;
   text-decoration: none;
-  margin: 5%;
-  padding: 2%; }
+  margin: 2%;
+  padding: 1% 1%; }
 
 .disenio--header {
   background-color: #517f83; }
@@ -34,3 +34,15 @@ body {
 
 .espacioRedes {
   padding: 2px 20px; }
+
+.introduccion {
+  grid-area: intro; }
+
+.autor {
+  grid-area: autor; }
+
+.disenioNosotros {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 100%;
+  grid-template-areas: "intro autor"; }
