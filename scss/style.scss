@@ -1,7 +1,7 @@
 $paletaColores: (
-    principal: #517f83,
-    secundario: #9e8d77,
-    terciario: #583d34,
+    principal: #5F9EA0,
+    secundario: #ffffff,
+    terciario: #A9A9A9,
 );
 
 .disenio{
@@ -9,6 +9,9 @@ $paletaColores: (
     text-decoration: none;
     margin: 2%;
     padding: 1% 1%;
+}
+.fuente {
+    font-family: Times New Roman;
 }
 
 .disenio--header{
