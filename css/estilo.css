@@ -1,14 +1,21 @@
 .disenio, .disenio--header, .disenio--footer, .disenio--titulo {
   text-align: center;
   text-decoration: none;
-  margin: 2%;
   padding: 1% 1%; }
 
 .fuente {
   font-family: Times New Roman; }
 
 .disenio--header {
-  background-color: #5F9EA0; }
+  background-color: #5F9EA0; 
+  background:-o-linear-gradient(left, black)
+} 
+
+.img {
+  display: block;
+  justify-self:right;
+ 
+}
 
 .disenio--footer {
   background-color: #A9A9A9; }
@@ -25,14 +32,14 @@ body {
   background-color: #ffffff; }
 
 .espacioHeader {
+  display: block;
   padding: 20px 80px;
   border: 2px solid black;
   margin: 20px 80px; }
 
 .redesSociales {
   background-color: white;
-  border: 2px solid black;
-  padding: 5%;
+  padding: 2%;
   margin: 2%; }
 
 .espacioRedes {
@@ -48,5 +55,4 @@ body {
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: 100%;
-  grid-template-areas: "intro autor"; 
-}
+  grid-template-areas: "intro autor"; }

@@ -7,7 +7,6 @@ $paletaColores: (
 .disenio{
     text-align: center;
     text-decoration: none;
-    margin: 2%;
     padding: 1% 1%;
 }
 .fuente {
@@ -17,6 +16,10 @@ $paletaColores: (
 .disenio--header{
     @extend .disenio;
     background-color:map-get($paletaColores , principal );
+}
+
+.menu{
+ font-size:3%; 
 }
 
 .disenio--footer{
@@ -40,6 +43,7 @@ body{
 }
 
 .espacioHeader{
+    display: block;
     padding: 20px 80px;
     border: 2px solid black;
     margin: 20px 80px;
