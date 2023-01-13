@@ -18,9 +18,7 @@ $paletaColores: (
     background-color:map-get($paletaColores , principal );
 }
 
-.menu{
- font-size:3%; 
-}
+
 
 .disenio--footer{
     @extend .disenio;
